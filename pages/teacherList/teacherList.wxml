@@ -1,0 +1,12 @@
+<!--pages/teacherList/teacherList.wxml-->
+<view class="teacherContainer">
+<teacherItem/>
+<teacherItem/>
+<teacherItem/>
+<teacherItem/>
+<teacherItem/>
+<teacherItem/>
+<teacherItem/>
+<teacherItem/>
+<teacherItem/>
+</view>

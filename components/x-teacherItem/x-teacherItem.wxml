@@ -1,0 +1,5 @@
+<!--components/x-teacherItem/x-teacherItem.wxml-->
+<view class="x-teacherItem">
+  <image src="/assets/images/header.png" />
+  <text>Sz</text>
+</view>

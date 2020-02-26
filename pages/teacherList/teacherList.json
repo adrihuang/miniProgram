@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "teacherItem": "/components/x-teacherItem/x-teacherItem"
+  }
+}

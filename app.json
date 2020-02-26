@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "pages/teacherList/teacherList",
+    "pages/courseList/courseList",
+    "components/x-teacherItem/x-teacherItem"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
