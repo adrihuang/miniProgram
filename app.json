@@ -2,7 +2,8 @@
   "pages": [
     "pages/teacherList/teacherList",
     "pages/courseList/courseList",
-    "components/x-teacherItem/x-teacherItem"
+    "components/x-teacherItem/x-teacherItem",
+    "components/x-courseItem/x-courseItem"
   ],
   "sitemapLocation": "sitemap.json"
 }

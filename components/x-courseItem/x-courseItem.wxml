@@ -1,0 +1,11 @@
+<!--components/x-courseItem/x-courseItem.wxml-->
+<view class="courseContainer">
+  <view class="fm">
+    <image src="/assets/images/fm1.jpg" mode="aspectFill" />
+  </view>
+  <view class="desc">
+    <text class="course">Python-全栈</text>
+    <text class="teacher">讲师： 王一博</text>
+    <text class="studentscount">在线人数： 100</text>
+  </view>
+</view>

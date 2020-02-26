@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "courseItem": "/components/x-courseItem/x-courseItem"
+  }
 }
