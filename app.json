@@ -1,9 +1,32 @@
 {
+  "window": {
+    "navigationBarBackgroundColor": "#ff00ff",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ffff00"
+  },
   "pages": [
     "pages/teacherList/teacherList",
     "pages/courseList/courseList",
     "components/x-teacherItem/x-teacherItem",
     "components/x-courseItem/x-courseItem"
   ],
+  "tabBar": {
+    "selectedColor": "#ff00ff",
+    "list": [
+      {
+        "pagePath": "pages/teacherList/teacherList",
+        "text": "讲师",
+        "iconPath": "/assets/images/tabbar/teacher_nor.png",
+        "selectedIconPath": "/assets/images/tabbar/teacher_sel.png"
+      },
+      {
+        "pagePath": "pages/courseList/courseList",
+        "text": "课程",
+        "iconPath": "/assets/images/tabbar/course_nor.png",
+        "selectedIconPath": "/assets/images/tabbar/course_sel.png"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json"
 }
