@@ -1,0 +1,46 @@
+/* pages/x-dataBindng/x-dataBinding.wxss */
+.courseContainer{
+  height: 100px;
+  border-bottom: 3px solid red;
+  display: flex;
+}
+.courseContainer.star{
+  border-bottom: 3px solid gold;
+}
+.courseContainer .fm{
+  background-color: yellow;
+  width: 140px;
+  height: 80px;
+  margin: 10px;
+  margin-right: 0;
+}
+.courseContainer .fm image{
+  width: 100%;
+  height: 100%;
+}
+.courseContainer .desc{
+  flex: 1;
+  /* background-color: cyan; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.courseContainer .desc text{
+  font-size: 13px;
+}
+.courseContainer .desc .course{
+  font-size: 14px;
+  font-weight: bold;
+}
+.courseContainer .desc .teacher{
+  color: gray;
+}
+.courseContainer .desc .star{
+  color: gold;
+  font-weight: bold;
+  font-size: 14px;
+}
+.courseContainer .desc .studentscount{
+  color: red;
+}

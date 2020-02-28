@@ -1,0 +1,15 @@
+<!--pages/x-dataBindng/x-dataBinding.wxml-->
+<view class="courseContainer {{isStar?'star':''}}">
+  <view class="fm">
+    <image src="{{courseImg}}" mode="aspectFill" />
+  </view>
+  <view class="desc">
+    <text class="course">{{courseTitle}}</text>
+    <text class="teacher">讲师：{{teacher}} <text class="star" wx:if="{{isStar}}">星级讲师</text></text>
+    <text class="studentscount">在线人数：{{studentCount>1000?studentCount/1000 + "k" : studentCount}}人</text>
+  </view>
+</view>
+<view wx:if="{{score==100}}">滿分</view>
+<view wx:elif="{{score>=90}}">優秀</view>
+<view wx:elif="{{score>=60}}">及格</view>
+<view wx:else>不及格</view>

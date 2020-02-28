@@ -9,7 +9,8 @@
     "pages/teacherList/teacherList",
     "pages/courseList/courseList",
     "components/x-teacherItem/x-teacherItem",
-    "components/x-courseItem/x-courseItem"
+    "components/x-courseItem/x-courseItem",
+    "pages/x-dataBindng/x-dataBinding"
   ],
   "tabBar": {
     "selectedColor": "#ff00ff",

@@ -72,6 +72,12 @@
 					"pathName": "pages/courseList/courseList",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "数据绑定",
+					"pathName": "pages/x-dataBindng/x-dataBinding",
+					"scene": null
 				}
 			]
 		}
